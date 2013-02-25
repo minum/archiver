@@ -1,0 +1,30 @@
+{
+  "name": "metrics-io-archiver",
+  "version": "0.1.1",
+  "description": "Archive realtime metrics for speed aggregations",
+  "keywords": [
+    "metrics",
+    "tracking",
+    "archiver"
+  ],
+  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/metrics-io/archiver.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  },
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "dependencies": {
+    "mongodb": "1.2.x",
+    "qbox": "0.1.x"
+  },
+  "devDependencies": {
+    "mongojs": "0.4.x",
+    "mocha": "1.x.x"
+  }
+}
